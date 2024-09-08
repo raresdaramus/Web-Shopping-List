@@ -20,9 +20,9 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/raresdaramus/Cumperi---Shopping-List.git
 
-2.**Navigate to the project folder:**
+2. **Navigate to the project folder:**
 
-  ```bash
-  cd Cumperi---Shopping-List
+   ```bash
+   cd Cumperi---Shopping-List
 
-3.**Open cumperi.html by dragging it into a browser
+3. **Open cumperi.html by dragging it into a browser**
