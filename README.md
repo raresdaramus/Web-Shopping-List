@@ -1,4 +1,5 @@
 # Cumperi? Shopping List
+![Capture3](https://github.com/user-attachments/assets/22c93dfc-0778-42d6-83f8-ff321fd46caa)
 
 ## Description
 
