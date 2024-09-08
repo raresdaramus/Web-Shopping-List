@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(270deg, #1e65e9, #9613a1);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 90%; /* Use percentage for width */
+  max-width: 600px; /* Add a max-width to prevent it from getting too wide */
+  border-radius: 0.7rem;
+  margin-top: 10rem; /* Use relative units for margin */
+  padding-bottom: 4rem; /* Use relative units for padding */
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem; /* Use relative units for gap */
+  padding-left: 5rem;
+}
+
+.header h1 {
+  color: #781385;
+  font-weight: bold;
+  font-size: 1.5rem; /* Use relative units for font-size */
+}
+
+.header h2 {
+  color: #747474;
+  font-weight: 300;
+  font-size: 1rem; /* Use relative units for font-size */
+}
+
+.product-input {
+  width: 90%; /* Use percentage for width */
+  min-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.5rem; /* Use relative units for padding */
+  padding-left: 1.5rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem; /* Use relative units for padding */
+  background: #ff5945;
+  color: #fff;
+  font-size: 1rem; /* Use relative units for font-size */
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+ul {
+  width: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1rem; /* Use relative units for font-size */
+  padding: 0.5rem 3rem; /* Use relative units for padding */
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 1.75rem; /* Use relative units */
+  width: 1.75rem; /* Use relative units */
+  border-radius: 50%; /* Use percentage for border-radius */
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 0.5rem; /* Use relative units */
+  left: 0.5rem; /* Use relative units */
+}
+
+ul li.checked {
+  color: #555;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  background-image: url(images/checked.png);
+}
+
+ul li span {
+  position: absolute;
+  right: 1rem; /* Use relative units */
+  top: 0.5rem; /* Use relative units */
+  width: 2.5rem; /* Use relative units */
+  height: 2.5rem; /* Use relative units */
+  font-size: 1.375rem; /* Use relative units */
+  color: #555;
+  line-height: 2.5rem; /* Use relative units */
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+ul li span:hover {
+  background: #ff5945;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.25rem;
+  }
+
+  .header h2 {
+    font-size: 0.875rem;
+  }
+
+  .product-input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  ul li {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+
+  ul li span {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.125rem;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+}
