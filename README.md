@@ -1,5 +1,6 @@
 # Cumperi? Shopping List
-Try it here: <a href="https://raresdaramus.github.io/Web-Shopping-List/">Cumperi?|Shopping List<a> <br/>
+# Try it here: <a href="https://raresdaramus.github.io/Web-Shopping-List/">Cumperi?|Shopping List<a> <br/>
+
 **Cumperi?** is a simple and intuitive shopping list application designed to help users manage their shopping items effectively. Built with HTML, CSS, and JavaScript, this project features a responsive design that adapts to both desktop and mobile devices.
 ![resizedImage](https://github.com/user-attachments/assets/9e6687b7-8de8-4509-8bfa-f8fdba5a63ad)
 
